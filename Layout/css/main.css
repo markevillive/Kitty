@@ -5,18 +5,50 @@
   font-weight: normal;
    }
 
-/*-----Global-----*/
+/*----------Defaults----------*/
+
+body  {
+  min-width: 320px;
+  color: aliceblue;
+  background-color: #222;
+}
+
+img {
+  max-width: 100%;
+}
+
+.kitty-section  {
+  max-width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .kitty-section__darker  {
-  min-height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  min-height: 1080px;
   background-color: rgba(0, 0, 0, .5);
+}
+
+/*---Titles---*/
+
+.kitty-section__title {
+  margin-bottom: 5px;
+  font-family: 'Edo';
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 120%;
+  color: red;
 }
 
 /*----section-hero-----*/
 
 .section-hero {
   height: 1080px;
-  background-color: #222;
   background-image: url("/images/kitty-bacground.jpg");
 }
 
@@ -36,5 +68,25 @@
   font-weight: 600;
   font-size: 25px;
   line-height: 120%;
-  color: red;
 }
+
+/*-----section-about-----*/
+
+.section-about  {
+  background-image: url("/images/about-bg.jpg");
+}
+
+/*-----section-blog-----*/
+
+/*-----section-books-----*/
+
+.section-books  {
+  background-image: url("/images/books-bg.jpg");
+}
+
+/*-----section-contacts-----*/
+
+.section-contacts {
+  background-image: url("/images/contacts-bg.jpg");
+}
+
