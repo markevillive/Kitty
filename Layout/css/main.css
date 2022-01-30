@@ -45,6 +45,14 @@ img {
   color: red;
 }
 
+/*-----header-----*/
+
+.header-logo  {
+  font-family: 'Edo';
+  font-size: 40px;
+  color: red !important;
+}
+
 /*----section-hero-----*/
 
 .section-hero {
@@ -77,6 +85,7 @@ img {
 }
 
 /*-----section-blog-----*/
+
 
 /*-----section-books-----*/
 
