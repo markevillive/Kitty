@@ -5,127 +5,116 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
   <title> Kitty Sanders &COPY;</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+=======
+  <title>Kitty Sanders&COPY;</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+>>>>>>> 6ea6be6c90fb2d8545b2c5047d19ff0775d6229a
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <header class="kitty-header">
-    <div class="container">
-      <nav class="header-nav">
-        <ul class="header-nav__list list-reset flex">
-          <li class="header-nav__item">
-            <a href="#" class="header-nav__link">
-              Home
-            </a>
+  <header class="kitty-main-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand header-logo" href="#">Kitty Sanders</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="header-nav__item">
-            <a href="#about" class="header-nav__link">
-              About me
-            </a>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
           </li>
-          <li class="header-nav__item">
-            <a href="#books" class="header-nav__link">
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#books" class="nav-link">
               Books
             </a>
           </li>
-          <li class="header-nav__item">
-            <a href="#contacts" class="header-nav__link">
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">
               Contacts
             </a>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
-  <main class="kitty-main">
+  <main>
     <section class="kitty-section section-hero">
       <div class="container">
-        <div class="section-darker">
-          <div class="section-hero__title-wrap flex">
-            <div class="div">
-              <h1 class="section-hero__title">Kitty Sanders</h1>
-            <p class="section-hero__subtitle">
-              Writer&rsquo;s homepage
-            </p>
+        <div class="kitty-section__darker">
+          <div class="row">
+            <div class="col-xl-6">
+
+            </div>
+            <div class="col-xl-6 .col-lg-8  col-md-12 col-sm-12">
+              <h1 class="section-hero__title">Kitty&nbsp;Sanders</h1>
+              <h2 class="section-hero__subtitle">Writter's homepage</h2>
             </div>
           </div>
-          <div class="section-content section-hero__content">
-            <p class="section-hero__text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur officia soluta excepturi quod vitae
-              placeat quis a obcaecati amet. Debitis dignissimos facere architecto temporibus quod. Consequuntur harum
-              dolore nihil accusantium.
-            </p>
-          </div>
         </div>
-
       </div>
     </section>
     <section id="about" class="kitty-section section-about">
       <div class="container">
-        <div class="section-content section-about__content">
-          <h2 class="section-title section-about__title">About me</h2>
-          <p class="section-description section-about__description">
-            Lorem ipsum dolor sit amet.
-          </p>
-          <ul class="section-about__list list-reset">
-            <li class="section-about__list-item">Lorem ipsum</li>
-            <li class="section-about__list-item">Lorem ipsum</li>
-            <li class="section-about__list-item">Lorem ipsum</li>
-            <li class="section-about__list-item">Lorem ipsum</li>
-            <li class="section-about__list-item">Lorem ipsum</li>
-          </ul>
-          <p class="section-about__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime minus dolorem, autem adipisci eum ratione
-            nisi
-            dolor officia quas labore, aperiam a. Ipsam placeat soluta quasi nostrum atque. Itaque, sit?
-          </p>
-        </div>
+        <div class="kitty-section__darker">
+          <h2 class="kitty-section__title section-about__title">About me</h2>
+          <h3 class="kitty-section__subtitle">Lorem ipsum</h3>
 
+        </div>
+      </div>
+    </section>
+    <section id="blog" class="kitty-section section-blog">
+      <div class="container">
+        <div class="kitty-section__darker">
+          <h2 class="kitty-section__title section-blog__title">Blog</h2>
+          <h3 class="kitty-section__subtitle">Lorem ipsum</h3>
+
+        </div>
       </div>
     </section>
     <section id="books" class="kitty-section section-books">
       <div class="container">
-        <div class="section-content section-books__content">
-          <h2 class="section-title section-books__title">My books</h2>
-          <p class="section-description section-books__description">
-            Lorem ipsum dolor sit amet.
-          </p>
-          <ul class="section-books__list list-reset">
-            <li class="section-books__item">Lorem ipsum</li>
-            <li class="section-books__item">Lorem ipsum</li>
-            <li class="section-books__item">Lorem ipsum</li>
-            <li class="section-books__item">Lorem ipsum</li>
-            <li class="section-books__item">Lorem ipsum</li>
-          </ul>
+        <div class="kitty-section__darker">
+          <h2 class="kitty-section__title section-books__title">My books</h2>
+          <h3 class="kitty-section__subtitle">Lorem ipsum</h3>
+
         </div>
       </div>
     </section>
     <section id="contacts" class="kitty-section section-contacts">
       <div class="container">
-        <div class="section-content section-contacts__content">
-          <h2 class="section-title section-contacts__title">Contacts</h2>
-          <p class="section-description section-contacts__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. At deleniti, amet quibusdam consectetur pariatur
-            odio itaque nulla illo error sit quas reprehenderit officiis aspernatur rem. Saepe quis maiores non eos.
-          </p>
-          <ul class="section-contacts__list">
-            <li class="section-contacts__item">
-              Address
-            </li>
-            <li class="section-contacts__item">
-              Phone
-            </li>
-            <li class="section-contacts__item">
-              enail
-            </li>
-          </ul>
+        <div class="kitty-section__darker">
+          <h2 class="kitty-section__title section-contacts__title">Contacts</h2>
+          <h3 class="kitty-section__subtitle">Lorem ipsum</h3>
+
         </div>
       </div>
     </section>
   </main>
+<<<<<<< HEAD
   <footer class="kitty-footer">
     <div class="container footer-container flex">
       <nav class="footer-nav">
@@ -160,6 +149,18 @@
     <script src="/js/popper.js"></script>
     <script src="/js/bootstrap.js"></script>
     <script src="/js/main.js"></script>
+=======
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
+
+>>>>>>> 6ea6be6c90fb2d8545b2c5047d19ff0775d6229a
 </body>
 
 </html>
