@@ -4,8 +4,7 @@
   font-style: normal;
   font-weight: normal;
    }
-<<<<<<< HEAD
-=======
+
 
 /*----------Defaults----------*/
 
@@ -47,6 +46,45 @@ img {
   color: red;
 }
 
+/*-----To Top-----*/
+.button-up  {
+  z-index: 1001;
+  width: 50px;
+  height: 60px;
+  position: fixed;
+  bottom: 50px;
+  right: 60px;
+  border-radius: 10px;
+  font-size: 32px;
+  color: #fff;
+  background-color: red;
+  outline: none;
+  border: 1px solid #000;
+  box-shadow: 0 0 20px 10px rgba(255 ,255 , 255 , .5);
+  cursor: pointer;
+  transition-property: box-shadow border background-color color;
+  transition-duration: .3s;
+  transition-timing-function: ease;
+}
+
+.hidden {
+  display:none
+}
+
+.button-up:hover:not(:active)  {
+  background-color: #fff;
+  color: red;
+  border: 1px solid red;
+  box-shadow:0 0 20px 10px rgba(255, 0, 0, .5) ;
+}
+
+.button-up:active {
+  background-color: red;
+  color: #fff;
+  border: 1px solid #fff;
+  box-shadow: none;
+}
+
 /*-----header-----*/
 
 .header-logo  {
@@ -59,7 +97,7 @@ img {
 
 .section-hero {
   height: 1080px;
-  background-image: url("/images/kitty-bacground.jpg");
+  background-image: url("/img/kitty-bacground.jpg");
 }
 
 .section-hero__title  {
@@ -83,22 +121,24 @@ img {
 /*-----section-about-----*/
 
 .section-about  {
-  background-image: url("/images/about-bg.jpg");
+  background-image: url("/img/about-bg.jpg");
 }
 
 /*-----section-blog-----*/
 
+.section-blog {
+  background-image: url("/img/blog-bg.jpg");
+}
 
 /*-----section-books-----*/
 
 .section-books  {
-  background-image: url("/images/books-bg.jpg");
+  background-image: url("/img/books-bg.jpg");
 }
 
 /*-----section-contacts-----*/
 
 .section-contacts {
-  background-image: url("/images/contacts-bg.jpg");
+  background-image: url("/img/contacts-bg.jpg");
 }
 
->>>>>>> 6ea6be6c90fb2d8545b2c5047d19ff0775d6229a
