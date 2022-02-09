@@ -1,4 +1,4 @@
-@font-face {
+@font-face  {
   font-family: "Edo";
   src: url("../fonts/edo.woff2") format("woff2"), url("../fonts/edo.woff") format("woff");
   font-style: normal;
@@ -6,143 +6,101 @@
    }
 
 
-/*----------Defaults----------*/
-
-body  {
-  min-width: 320px;
+p, a, span, ul, ol, li, h1, h2, h3, h4, h5, h6  {
   color: aliceblue;
-  background-color: #222;
 }
 
-img {
-  max-width: 100%;
-}
 
-.kitty-section  {
-  max-width: 100%;
-  height: 1080px;
-  overflow: hidden;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.kitty-section__darker  {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  width: 100%;
-  min-height: 1080px;
+.secton-header  {
+  padding: 10px 20px;
   background-color: rgba(0, 0, 0, .5);
 }
 
-/*---Titles---*/
-
-.kitty-section__title {
-  margin-bottom: 5px;
+.section-title  {
+  font-size: 45px;
   font-family: 'Edo';
-  font-size: 60px;
-  font-weight: 400;
+  color: red;
+}
+
+.section-subtitle {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
   line-height: 120%;
-  color: red;
 }
 
-/*-----To Top-----*/
-.button-up  {
-  z-index: 1001;
-  width: 50px;
-  height: 60px;
-  position: fixed;
-  bottom: 50px;
-  right: 60px;
-  border-radius: 10px;
-  font-size: 32px;
-  color: #fff;
-  background-color: red;
-  outline: none;
-  border: 1px solid #000;
-  box-shadow: 0 0 20px 10px rgba(255 ,255 , 255 , .5);
-  cursor: pointer;
-  transition-property: box-shadow border background-color color;
-  transition-duration: .3s;
-  transition-timing-function: ease;
+.section-subtitle:not(:last-child)  {
+  margin-bottom: 10px;
 }
 
-.hidden {
-  display:none
+.kitty-section  {
+  height: 1080px;
+  background-color: #222;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
-.button-up:hover:not(:active)  {
-  background-color: #fff;
-  color: red;
-  border: 1px solid red;
-  box-shadow:0 0 20px 10px rgba(255, 0, 0, .5) ;
-}
+/*--------------header--------------*/
 
-.button-up:active {
-  background-color: red;
-  color: #fff;
-  border: 1px solid #fff;
-  box-shadow: none;
-}
-
-/*-----header-----*/
-
-.header-logo  {
+.logo-title {
   font-family: 'Edo';
-  font-size: 40px;
-  color: red !important;
+  color: red;
+  font-size: 60px;
 }
 
-/*----section-hero-----*/
+/*--------------hero--------------*/
 
 .section-hero {
-  height: 1080px;
-  background-image: url("/img/kitty-bacground.jpg");
+  background-image: url('/img/kitty-bacground.jpg');
 }
 
-.section-hero__title  {
-    margin-bottom: 10px;
-    text-align: center;
-    font-family: 'Edo';
-    font-size: 80px;
-    font-weight: 400;
-    line-height: 100%;
-    color: red;
-}
-
-.section-hero__subtitle {
-  margin: 0;
-  text-align: center;
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 100%;
-}
-
-.kitty-section__subtitle  {
-  line-height: 100%;
-}
-
-/*-----section-about-----*/
+/*--------------about--------------*/
 
 .section-about  {
-  background-image: url("/img/about-bg.jpg");
+  background-image: url('/img/about-bg.jpg');
 }
 
-/*-----section-blog-----*/
+/*--------------blog--------------*/
 
 .section-blog {
-  background-image: url("/img/blog-bg.jpg");
+  background-image: url('/img/blog-bg.jpg');
 }
 
-/*-----section-books-----*/
+/*--------------books--------------*/
 
 .section-books  {
-  background-image: url("/img/books-bg.jpg");
+  background-image: url('/img/books-bg.jpg');
 }
 
-/*-----section-contacts-----*/
+/*--------------contacts--------------*/
 
 .section-contacts {
-  background-image: url("/img/contacts-bg.jpg");
+  background-image: url('/img/contacts-bg.jpg');
 }
 
+/*--------------footer--------------*/
+
+.main-footer  {
+  min-height: 100px;
+  background-color: #222;
+}
+
+.footer-logo  {
+  margin-bottom: 20px;
+}
+
+.footer-logo__brand {
+  margin: 0;
+  font-family: 'Edo';
+  color: red;
+  font-size: 40px;
+  line-height: 110%;
+}
+
+.footer-logo__subtitle  {
+  margin: 0;
+ font-size: 12px;
+ line-height: 110%;
+}

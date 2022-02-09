@@ -5,165 +5,206 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kitty Sanders &copy; </title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-  <title> Kitty Sanders &COPY;</title>
-  <title>Kitty Sanders&COPY;</title>
-  <!--Font Awesome-->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <!--end Font Awesome-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <button class="button-up ">
-    <i class="fas fa-angle-up"></i>
-  </button>
-  <header class="kitty-main-header">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand header-logo" href="#">Kitty Sanders</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#blog">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a href="#books" class="nav-link">
-              Books
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#contacts" class="nav-link">
-              Contacts
-            </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-toggle="dropdown" aria-expanded="false">
-              Dropdown link
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
+  <header class="main-header">
+    <nav class="navbar navbar-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <h1 class="title logo-title">Kitty Sanders</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#books">Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-danger" type="submit">Search</button>
+          </form>
+        </div>
       </div>
     </nav>
   </header>
   <main>
-    <section class="kitty-section section-hero">
+    <section id="hero" class="kitty-section section-hero">
       <div class="container">
-        <div class="kitty-section__darker">
-          <div class="row">
-            <div class="col-xl-6">
+        <header class="secton-header">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
 
-            </div>
-            <div class="col-xl-6 .col-lg-8  col-md-12 col-sm-12">
-              <h1 class="section-hero__title">Kitty&nbsp;Sanders</h1>
-              <h2 class="section-hero__subtitle">Writer's home page.</h2>
-              <h2 class="section-hero__subtitle">Página principal del escritor.</h2>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <h2 class="section-title section-hero__title">Kitty Sanders</h2>
+                <span class="section-subtitle">Writer's homerpage</span>
+                <span class="section-subtitle">Página principal del escritor.</span>
+              </div>
             </div>
           </div>
+
+        </header>
+        <div class="sction-hero__content">
+          <p class="section-hero__text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, minima. Incidunt vero natus quasi sunt,
+            commodi soluta qui fuga ab pariatur totam non vitae nesciunt! Laborum cum voluptates minima unde.
+          </p>
+          <p class="section-hero__text">
+            Sem viverra aliquet eget sit amet tellus cras. Blandit cursus risus at ultrices mi tempus. Feugiat in ante
+            metus dictum at. Cras ornare arcu dui vivamus. Lorem ipsum dolor sit amet consectetur adipiscing. Sagittis
+            purus sit amet volutpat consequat. Nunc lobortis mattis aliquam faucibus. Cras ornare arcu dui vivamus arcu
+            felis bibendum ut tristique. Nisi lacus sed viverra tellus in. Venenatis tellus in metus vulputate eu
+            scelerisque. In metus vulputate eu scelerisque felis imperdiet proin fermentum.
+          </p>
+          <p class="section-hero__text">
+            Приятно, граждане, наблюдать, как представители современных социальных резервов и по сей день остаются
+            уделом либералов, которые жаждут быть обнародованы. Каждый из нас понимает очевидную вещь: реализация
+            намеченных плановых заданий напрямую зависит от прогресса профессионального сообщества. И нет сомнений, что
+            действия представителей оппозиции призывают нас к новым свершениям, которые, в свою очередь, должны быть
+            объективно рассмотрены соответствующими инстанциями.
+          </p>
         </div>
       </div>
     </section>
     <section id="about" class="kitty-section section-about">
       <div class="container">
-        <div class="kitty-section__darker">
-          <h2 class="kitty-section__title section-about__title">About me</h2>
-          <h3 class="kitty-section__subtitle">Acerca de mí.</h3>
-          <h3 class="kitty-section__subtitle">Обо мне</h3>
+        <header class="secton-header">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md12">
+                <h2 class="section-title">About me</h2>
+                <span class="section-subtitle">Обо мне.</span>
+                <span class="section-subtitle">Acerca de mí</span>
+              </div>
+              <div class="col-lg-8">
 
-        </div>
+              </div>
+            </div>
+          </div>
+
+        </header>
       </div>
     </section>
     <section id="blog" class="kitty-section section-blog">
       <div class="container">
-        <div class="kitty-section__darker">
-          <h2 class="kitty-section__title section-blog__title">Blog</h2>
-          <h3 class="kitty-section__subtitle">Блог</h3>
-
-        </div>
+        <header class="secton-header">
+          <h2 class="section-title section-blog__title">Blog</h2>
+          <span class="section-subtitle">Блог.</span>
+          <span class="section-subtitle">Mi blog</span>
+        </header>
       </div>
     </section>
     <section id="books" class="kitty-section section-books">
       <div class="container">
-        <div class="kitty-section__darker">
-          <h2 class="kitty-section__title section-books__title">My books</h2>
-          <h3 class="kitty-section__subtitle">Mis libros</h3>
-          <h3 class="kitty-section__subtitle">Мои книги</h3>
-        </div>
+        <header class="secton-header">
+          <h2 class="section-title">My books</h2>
+          <span class="section-subtitle">Мои книги</span>
+          <span class="section-subtitle">Mis libros</span>
+        </header>
       </div>
     </section>
     <section id="contacts" class="kitty-section section-contacts">
       <div class="container">
-        <div class="kitty-section__darker">
-          <h2 class="kitty-section__title section-contacts__title">Contacts</h2>
-          <h3 class="kitty-section__subtitle">Contactos.</h3>
-          <h3 class="kitty-section__subtitle">Контакты.</h3>
-
-        </div>
+        <header class="secton-header">
+          <h2 class="section-title">Contacts</h2>
+          <span class="section-subtitle">Контакты</span>
+          <span class="section-subtitle">Contactos</span>
+        </header>
       </div>
     </section>
   </main>
+  <footer class="main-footer">
 
-  <footer class="kitty-footer">
-    <div class="container footer-container flex">
-      <nav class="footer-nav">
-        <ul class="kitty-footer__social-list list-reset flex">
-          <li class="kitty-footer__social-item">
-            <a href="#" class="kitty-footer__social-link">
-              Facebook
-            </a>
-          </li>
-          <li class="kitty-footer__social-item">
-            <a href="#" class="kitty-footer__social-link">
-              ВКонтакте
-            </a>
-          </li>
-          <li class="kitty-footer__social-item">
-            <a href="#" class="kitty-footer__social-link">
-              Instagram
-            </a>
-          </li>
-          <li class="kitty-footer__social-item">
-            <a href="#" class="kitty-footer__social-link">
-              Linkedin
-            </a>
-          </li>
-        </ul>
-      </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="footer-logo">
+            <p class="footer-logo__brand">Kitty Sanders</p>
+            <p class="footer-logo__subtitle">Writer's homepage</p>
+          </div>
+          <h6 class="copyright">
+            &copy; Kitty Sanders 2022 all rights reserved.
+          </h6>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a href="#" class="footer-social-link">
+                Facebook
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="#" class="footer-social-link">
+                Instagram
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="#" class="footer-social-link">
+                Linkedin
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="#" class="footer-social-link">
+                VKontakte
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <h6 class="copyright">
+            Designrd by &copy; Marc &amp; Nonny 2022
+          </h6>
+        </div>
+      </div>
+
     </div>
   </footer>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEspan1eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
-    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
-
-  <script src="/js/main.js"></script>
-
 </body>
 
 </html>
