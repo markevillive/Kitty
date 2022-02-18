@@ -1,6 +1,6 @@
 @font-face  {
   font-family: "Edo";
-  src: url("../fonts/edo.woff2") format("woff2"), url("../fonts/edo.woff") format("woff");
+  src: url(../fonts/edo.woff2) format("woff2"), url(../fonts/edo.woff) format("woff");
   font-style: normal;
   font-weight: normal;
    }
@@ -34,7 +34,7 @@ p, a, span, ul, ol, li, h1, h2, h3, h4, h5, h6  {
 }
 
 .kitty-section  {
-  height: 1080px;
+  min-height: 1080px;
   background-color: #222;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,6 +74,41 @@ p, a, span, ul, ol, li, h1, h2, h3, h4, h5, h6  {
   background-image: url('/img/books-bg.jpg');
 }
 
+.book-card__title {
+  background-color: black;
+  color: red;
+  font-family: 'Edo';
+}
+
+.book-card__quote {
+  color: #222;
+}
+
+.book-card__text {
+  color: inherit;
+}
+
+.book-card__text::before {
+  content: '\201c';
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: red;
+}
+
+.book-card__text::after {
+  content: '\201d';
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: red;
+}
+
+.book-card__btn {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 /*--------------contacts--------------*/
 
 .section-contacts {
@@ -103,4 +138,10 @@ p, a, span, ul, ol, li, h1, h2, h3, h4, h5, h6  {
   margin: 0;
  font-size: 12px;
  line-height: 110%;
+}
+
+.copyright-amp {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  color: red;
 }
