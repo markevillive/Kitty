@@ -89,7 +89,9 @@ p, a, span, ul, ol, li, h1, h2, h3, h4, h5, h6  {
   font-family: 'Edo';
 }
 
-
+.book-card__quote {
+  margin-bottom: 20px !important;
+}
 
 .book-card__text {
   color: inherit;
