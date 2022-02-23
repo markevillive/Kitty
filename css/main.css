@@ -74,15 +74,22 @@ p, a, span, ul, ol, li, h1, h2, h3, h4, h5, h6  {
   background-image: url('/img/books-bg.jpg');
 }
 
+.section-books__col:not(:last-child)  {
+  margin-bottom: 10px;
+}
+
+.book-card {
+  background-color: #000;
+  color: #fff;
+}
+
 .book-card__title {
   background-color: black;
   color: red;
   font-family: 'Edo';
 }
 
-.book-card__quote {
-  color: #222;
-}
+
 
 .book-card__text {
   color: inherit;
@@ -102,6 +109,10 @@ p, a, span, ul, ol, li, h1, h2, h3, h4, h5, h6  {
   font-size: 1.5em;
   font-weight: 700;
   color: red;
+}
+
+.book-card__footer  {
+  color: #fff;
 }
 
 .book-card__btn {
