@@ -17,6 +17,9 @@ body  {
 img {
   max-width: 100%;
 }
+.flex {
+  display: flex;
+}
 
 .kitty-section  {
   max-width: 100%;
@@ -67,6 +70,8 @@ img {
   transition-timing-function: ease;
 }
 
+
+
 .hidden {
   display:none
 }
@@ -84,6 +89,10 @@ img {
   border: 1px solid #fff;
   box-shadow: none;
 }
+
+/*-----preloader-----*/
+
+
 
 /*-----header-----*/
 
