@@ -5,18 +5,34 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title> Kitty Sanders &COPY;</title>
   <title>Kitty Sanders&COPY;</title>
   <!--Font Awesome-->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <!--end Font Awesome-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <style>
+    .preloader {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1002;
+      background-color: #222;
+    }
+  </style>
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+  <!--<div class="preloader d-flex justify-content-center align-items-center">
+    <div class="spinner-border text-danger" style="width:20rem; height: 20rem; " role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>-->
   <button class="button-up ">
     <i class="fas fa-angle-up"></i>
   </button>
@@ -74,6 +90,22 @@
             <div class="col-xl-6 .col-lg-8  col-md-12 col-sm-12">
               <h1 class="section-hero__title">Kitty&nbsp;Sanders</h1>
               <h2 class="section-hero__subtitle">Writter's homepage</h2>
+              <div class="section-hero__content">
+                <article class="section-hero__article">
+                  <h3>Lorem ipsum</h3>
+                  <p class="section-hero__paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus ultricies dui a pellentesque. Sed varius malesuada justo in lobortis. Sed pulvinar metus vel accumsan lobortis. Integer rhoncus, risus eget tempus auctor, orci turpis feugiat sapien, eget porttitor augue dolor eget nunc. Ut feugiat condimentum felis sit amet condimentum. Nam scelerisque velit ut tortor efficitur consequat. Proin posuere rutrum dolor, non laoreet nisl mattis non. Vestibulum metus magna, sagittis eget porttitor non, sodales feugiat enim. Phasellus eget tellus felis
+                  </p>
+                  <p class="section-hero__paragraph">
+                    Duis ultrices, nunc eget ornare porta, est lorem gravida purus, et bibendum est nisl vitae felis. Sed magna magna, laoreet a finibus a, viverra ac metus. Duis laoreet placerat magna at pretium. Nam rhoncus nulla vitae sapien ornare, ut scelerisque erat iaculis. Donec placerat metus in ligula placerat gravida tincidunt vitae sem. Nunc ac tempus enim. In fermentum tempor quam, sit amet ultrices ante laoreet id. Sed euismod posuere risus, pretium egestas massa condimentum fringilla. Aenean nibh est, elementum vel efficitur ut, fermentum eget nulla.
+                  </p>
+                  <p class="section-hero__paragraph">
+                    Vivamus tempor sodales dolor, in finibus massa elementum ut. Vivamus accumsan hendrerit diam at malesuada. Suspendisse potenti. Sed in mattis libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris congue facilisis turpis, quis ullamcorper tortor molestie vel. Donec id accumsan est. Ut iaculis convallis arcu, ut eleifend nibh congue et. Aenean sit amet diam at lacus lobortis rhoncus eget nec tortor. Praesent ut arcu ac dolor semper suscipit. Vestibulum auctor mi eu elit mattis molestie. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                  </p>
+                </article>
+
+              </div>
+
             </div>
           </div>
         </div>
@@ -82,8 +114,20 @@
     <section id="about" class="kitty-section section-about">
       <div class="container">
         <div class="kitty-section__darker">
-          <h2 class="kitty-section__title section-about__title">About me</h2>
-          <h3 class="kitty-section__subtitle">Lorem ipsum</h3>
+          <article class="kitty-section__article">
+            <h2 class="kitty-section__title section-about__title">About me</h2>
+            <h3 class="kitty-section__subtitle">Lorem ipsum</h3>
+            <p class="kitty-section__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minima magni rerum illo ut sint
+              accusantium nihil! Accusamus corporis unde odio sit amet magnam deserunt laudantium hic mollitia earum ea
+              expedita odit aperiam ducimus, ad nobis! Quae aperiam nisi fugiat sapiente veniam quisquam exercitationem
+              quod inventore distinctio temporibus perferendis nesciunt ea, maxime dignissimos beatae doloremque
+              perspiciatis sint ullam officiis. Placeat asperiores fuga quam unde assumenda, dignissimos accusamus
+              excepturi praesentium libero tempora possimus inventore obcaecati, totam expedita illum doloribus neque, a
+              sed laborum nulla sapiente sit! Aliquam modi perspiciatis delectus nobis! Maiores et voluptates esse vel?
+              Tempora beatae temporibus nostrum! Eum.
+            </p>
+          </article>
 
         </div>
       </div>
@@ -93,7 +137,6 @@
         <div class="kitty-section__darker">
           <h2 class="kitty-section__title section-blog__title">Blog</h2>
           <h3 class="kitty-section__subtitle">Lorem ipsum</h3>
-
         </div>
       </div>
     </section>
@@ -102,7 +145,6 @@
         <div class="kitty-section__darker">
           <h2 class="kitty-section__title section-books__title">My books</h2>
           <h3 class="kitty-section__subtitle">Lorem ipsum</h3>
-
         </div>
       </div>
     </section>
@@ -111,7 +153,6 @@
         <div class="kitty-section__darker">
           <h2 class="kitty-section__title section-contacts__title">Contacts</h2>
           <h3 class="kitty-section__subtitle">Lorem ipsum</h3>
-
         </div>
       </div>
     </section>
