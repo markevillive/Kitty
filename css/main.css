@@ -1,0 +1,160 @@
+@font-face  {
+  font-family: "Edo";
+  src: url(../fonts/edo.woff2) format("woff2"), url(../fonts/edo.woff) format("woff");
+  font-style: normal;
+  font-weight: normal;
+   }
+
+
+p, a, span, ul, ol, li, h1, h2, h3, h4, h5, h6  {
+  color: aliceblue;
+}
+
+
+.secton-header  {
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.section-title  {
+  font-size: 45px;
+  font-family: 'Edo';
+  color: red;
+}
+
+.section-subtitle {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.section-subtitle:not(:last-child)  {
+  margin-bottom: 10px;
+}
+
+.kitty-section  {
+  min-height: 1080px;
+  background-color: #222;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/*--------------header--------------*/
+
+.logo-title {
+  font-family: 'Edo';
+  color: red;
+  font-size: 60px;
+}
+
+/*--------------hero--------------*/
+
+.section-hero {
+  background-image: url('/img/kitty-bacground.jpg');
+}
+
+/*--------------about--------------*/
+
+.section-about  {
+  background-image: url('/img/about-bg.jpg');
+}
+
+/*--------------blog--------------*/
+
+.section-blog {
+  background-image: url('/img/blog-bg.jpg');
+}
+
+/*--------------books--------------*/
+
+.section-books  {
+  background-image: url('/img/books-bg.jpg');
+}
+
+.section-books__col:not(:last-child)  {
+  margin-bottom: 10px;
+}
+
+.book-card {
+  background-color: #000;
+  color: #fff;
+}
+
+.book-card__title {
+  background-color: black;
+  color: red;
+  font-family: 'Edo';
+}
+
+.book-card__quote {
+  margin-bottom: 20px !important;
+}
+
+.book-card__text {
+  color: inherit;
+}
+
+.book-card__text::before {
+  content: '\201c';
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: red;
+}
+
+.book-card__text::after {
+  content: '\201d';
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: red;
+}
+
+.book-card__footer  {
+  color: #fff;
+}
+
+.book-card__btn {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*--------------contacts--------------*/
+
+.section-contacts {
+  background-image: url('/img/contacts-bg.jpg');
+}
+
+/*--------------footer--------------*/
+
+.main-footer  {
+  min-height: 100px;
+  background-color: #222;
+}
+
+.footer-logo  {
+  margin-bottom: 20px;
+}
+
+.footer-logo__brand {
+  margin: 0;
+  font-family: 'Edo';
+  color: red;
+  font-size: 40px;
+  line-height: 110%;
+}
+
+.footer-logo__subtitle  {
+  margin: 0;
+ font-size: 12px;
+ line-height: 110%;
+}
+
+.copyright-amp {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  color: red;
+}
